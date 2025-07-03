@@ -2,8 +2,12 @@
 <html>
 <head>
   <title>Trang thử nghiệm</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 </head>
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
 <body>
     <header class="header">
       <div class="topbar"></div> 
@@ -33,7 +37,21 @@
           <div class="flex flex-row justify-content-center h-100">
             <div class="container-full">
                 <div class="wrap-content-banner flex h-100 flex-column  text-right justify-content-between">
-                    <img src="images/logo.png" alt="logo" srcset="" class="logo-banner w-fit">
+                    <div class="inner-logo  flex flex-row justify-content-between">
+                      <div class="mobile-nav hidden-desktop">
+                         <svg width="32" height="24" viewBox="0 0 32 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <line x1="3.57153" y1="18.5713" x2="27.5715" y2="18.5713" stroke="white" stroke-width="2"/>
+                          <line x1="3.57153" y1="10.5713" x2="27.5715" y2="10.5713" stroke="white" stroke-width="2"/>
+                          <line x1="3.57153" y1="2.57129" x2="27.5715" y2="2.57129" stroke="white" stroke-width="2"/>
+                      </svg>
+                      <span>Menu</span>
+
+                      </div>
+                      <div class="imgage">
+                          <img src="images/logo.png" alt="logo" srcset="" class="logo-banner w-fit">
+                      </div>
+                    </div>
+                    
                     <h1 class="text-left">Transforming lives on every level</h1>
                 </div>
             </div>
@@ -91,7 +109,7 @@
         </div>
       </div>
       <div class="wrapper-sections section5 bg-red">
-        <div class="flex flex-column justify-content-center  align-items-center">
+        <div class="flex flex-column justify-content-center align-items-center">
             <div class="container-full">
                 <h2>Transforming Lives</h2>
                 <div class="container">
@@ -162,7 +180,7 @@
             </div>
           </div>
       </div>
-      <div class="wrapper-sections section8">
+      <div class="wrapper-sections section8 hidden-mobile">
         <div class="flex flex-row justify-content-center">
             <div class="container-full">
                 <div class="container">
@@ -210,6 +228,56 @@
      
 
       </div>
+      <div class="wrapper-sections section-image-carousel hidden-desktop">
+        <div class="mobile-image-carousel">
+          <div class="carousel-cell image-inner">
+            <div class="wrap-image">
+                <img src="images/s8-image1.jpg" alt="">
+            </div>
+          
+          </div>
+          <div class="carousel-cell image-inner">
+            <div class="wrap-image">
+                <img src="images/s8-img2.jpg" alt="">
+            </div>
+          </div>
+          <div class="carousel-cell image-inner">
+            <div class="wrap-image">
+              <img src="images/sec8-img3.jpg" alt="">
+            </div>
+          </div>
+         <div class="carousel-cell image-inner">
+            <div class="wrap-image">
+                <img src="images/s8-img4.jpg" alt="">
+            </div>
+          </div>
+          <div class="carousel-cell image-inner">
+            <div class="wrap-image">
+                <img src="images/s8-img5.jpg" alt="">
+            </div>
+          </div>
+         <div class="carousel-cell image-inner">
+            <div class="wrap-image">
+                 <img src="images/s8-img6.jpg" alt="">
+            </div>
+          </div>
+        
+        </div>
+        <div class="flex flex-row justify-content-center section-image-carousel--content">
+          <div class="container-full">
+              <div class="container">
+                 <div class="flex justify-content-start fisrt-content">
+                      <div class="content text-red">
+                          <p class="fisrt-p">Sydney Football Stadium Redevelopment </p>
+                         <h2 class="text-red">Building the best seats in the house.</h2>
+                          <a href="#">See all projects.</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+
+      </div>
       <div class="wrapper-sections section9 bg-red">
           <div class="flex flex-row justify-content-center">
             <div class="container-full">
@@ -230,29 +298,36 @@
                   </div>
                   <h6>23 September 2020</h6>
                   <h2 class="second">Fast-tracking Sydney’s Western Harbour Tunnel </h2>
-                  <div class="flex justify-content-end fisrt-content">
+                  <div class="flex justify-content-end fisrt-content image-wrap-section9">
                     <div class="content">
                       <img src="images/s9-img.jpg" alt="">
                     </div>
                   </div>
                 </div>
+
+            </div>
+          </div>
+      </div>
+      <div class="wrapper-sections section10 bg-red">
+          <div class="flex flex-row justify-content-center">
+            <div class="container-full">
                 <div class="container">
-                  <div class="wrapper-blog flex flex-row gap-1">
-                      <div class="inner-blog">
+                  <div class="wrapper-blog-image carousel">
+                      <div class="inner-blog carousel-cell">
                         <p class="time">23 September 2020</p>
                         <p class="shortDes">John Holland sets pathway to greener connections for people across the country</p>
                         <div class="img">
                           <img src="images/imgBlog.jpg" alt="">
                         </div>
                       </div>
-                      <div class="inner-blog">
+                      <div class="inner-blog carousel-cell">
                         <p class="time">23 September 2020</p>
                         <p class="shortDes">John Holland sets pathway to greener connections for people across the country</p>
                         <div class="img">
                           <img src="images/imgBlog.jpg" alt="">
                         </div>
                       </div>
-                      <div class="inner-blog">
+                      <div class="inner-blog carousel-cell">
                         <p class="time">23 September 2020</p>
                         <p class="shortDes">John Holland sets pathway to greener connections for people across the country</p>
                         <div class="img">
@@ -270,7 +345,7 @@
           <div class="flex flex-row justify-content-center">
               <div class="container-full">
                 <div class="container">
-                 <div class="pre-footer flex flex-row justify-content-start">
+                 <div class="pre-footer flex flex-row justify-content-start hidden-mobile">
                       <div class="inner-footer">
                         <h6 class="heading">Who we are</h6>
                         <ul>
@@ -338,9 +413,10 @@
                   </div>
                   
                 </div>
+                <p class="hidden-desktop"> © 2021 John Holland Group Pty Ltd</p>
                 <div class="copy-right flex flex-row justify-content-between align-items-center">
                     <div class="content-left flex flex-row justify-content-center align-items-center">
-                      <p> © 2021 John Holland Group Pty Ltd</p>
+                      <p class="hidden-mobile"> © 2021 John Holland Group Pty Ltd</p>
                       <ul class=" flex flex-row justify-content-center align-items-center">
                         <li><a href="#" class="text-white">Privacy Policy</a></li>
                          <li><a href="#" class="text-white">Cookie Policy</a></li>
@@ -362,5 +438,26 @@
           </div>
         </div>
     </footer>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  <script>
+    var elem = document.querySelector('.carousel');
+    var flkty = new Flickity( elem, {
+      cellAlign: 'left',
+      contain: true,
+      prevNextButtons: false,
+      pageDots: false,
+      groupCells: false, // cho phép "1.5" hiển thị đúng
+      draggable: true
+    });
+    var flkty = new Flickity('.mobile-image-carousel', {
+      cellAlign: 'left',
+      contain: true,
+      prevNextButtons: false,
+      pageDots: false,
+      draggable: true,
+      wrapAround: false
+    });
+  </script>
+
 </body>
 </html>
