@@ -49,7 +49,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-heading);
   font-weight: 700;
   line-height: 1.03125;
- color: var(--text-color);
+    color: var(--text-color);
 }
 h1,.h1,h2,.h2{
     font-size: 124px;
@@ -83,7 +83,6 @@ img{
 }
 .container {
     max-width: var(--container);
-   
      width: 100%; 
 }
 .container-full{
@@ -149,6 +148,9 @@ img{
 }
 .gap-1{
     gap:1rem
+}
+.text-white{
+    color: #fff;
 }
 .text-right{
     text-align: right;
@@ -324,6 +326,7 @@ header .wrapper-menu{
 }
 .section8 {
     margin-top: 127px;
+        margin-bottom: 176px;
 }
 .section8 .second-inner{
     margin-top: 96px;
@@ -343,4 +346,293 @@ header .wrapper-menu{
 .third-inner a{
     position: relative;
     top: 59px;
+}
+.section9{
+    padding-top: 160px;
+    padding-bottom: 72px;
+}
+.section9 h2.fisrt{
+    max-width: 900px;
+    margin-bottom: 112px;
+}
+.section9 h2.second{
+     max-width: 1000px;
+     margin-bottom: 106px;
+}
+.section9 .fisrt-content ul{
+        display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 72px;
+}
+.section9 .fisrt-content ul a{
+    color: var(--text-color);
+    text-decoration: none;
+}
+.section9 h6{
+    margin-top: 175px;
+}
+.section9 .fisrt-p{
+    margin-bottom: 2rem;
+}
+.section9 .wrapper-blog{
+    margin-top: 87px;
+}
+.wrapper-blog .time{
+    margin-bottom: 48px;
+}
+.wrapper-blog .shortDes{
+    margin-bottom: 1rem;
+}
+.site-footer a{
+    font-size: 1rem;
+    text-decoration: none;
+}
+.site-footer .inner-footer {
+    flex: 1;
+}
+.site-footer {
+    padding-top: 80px;
+    padding-bottom: 56px;
+}
+.pre-footer{
+    padding-bottom: 328px;
+}
+.copy-right,.copy-right a{
+        font-size: 1rem;
+        color: #DBDCDE;
+}
+.copy-right .content-left,.copy-right .content-left ul{
+    gap: 44px;
+}
+.copy-right .content-right p{
+    color:var(--text-color)
+}
+.inner-footer li{
+
+    margin-bottom: 8px;
+}
+.inner-footer li a{
+   line-height: 1.5;
+   display: block;  
+}
+.inner-footer h6{
+    margin-bottom: .5rem;
+}
+.inner-footer li a img{
+    width: 18px;
+}
+@media(max-width:1599px){
+    body,a{
+        font-size: 17.07px;
+    }
+    h1{
+        font-size: 39px;
+    }
+    h2{
+        font-size: 75px;
+    }
+    h3{
+        font-size: 28px;
+    }
+    .container-full{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .container {
+        max-width:809px;
+        width: 100%; 
+    }
+    .container-full{
+        max-width: 1024px;
+        width: 100%;
+         padding-left: 40px;
+        padding-right: 40px;
+    }
+    .wrapper-menu a{
+        font-size: 9.75px;
+       
+    }
+    .list-menu .item-menu{
+        padding: 9.75px 10.25px 10.25px 9.75px;
+    }
+    header .wrapper-menu {
+        margin-top: 0;
+    }
+    .wrapper-menu .list-menu{
+        gap: 0;
+    }
+    .wrap-content-banner{
+        padding-top: 108px;
+        padding-bottom:51px;
+    }
+    .wrap-content-banner h1 {
+        max-width: 320px;
+    }
+    .inner-section2 h3 {
+        padding-left: 0;
+        padding-top: 65px;
+        padding-bottom: 137px;
+        font-size: 39px;
+        max-width: 668px;
+    }
+    .section4 {
+        padding-top: 98px;
+        padding-bottom: 57px;
+    }
+    .section4 h2 {
+        padding-bottom: 64px;
+    }
+    .inner-section4 {
+        gap: 84px;
+    }
+    .inner-section4 img{
+        width: 326px;
+    }
+    .section4 .fisrt-content p {
+        padding-left: 10px;
+        margin-bottom: 34px;
+    }
+    .inner-section4 h4{
+        margin-bottom: 8px;
+    }
+    .inner-section4 p {
+        margin-top: 8px;
+        margin-bottom: 32px;
+    }
+    .heading.special {
+        display: flex;
+        flex-direction: row;
+        font-size: 121px;
+        line-height: 76.8px;
+        margin-bottom: 0;
+        position: relative;
+        top: 0;
+    }
+    .heading.special .unit {
+        font-size: 75.58px;
+        display: inline;
+        left: -21px;
+        position: relative;
+    }
+    .section5-wrap--2 h3 {
+        margin-bottom: 1rem;
+        font-size: 39px;
+    }
+    .section5 {
+        padding-top: 98px;
+        padding-bottom: 54px;
+    }
+    .section5 h2{
+            margin-bottom: 64px;
+    }
+    .section6, .section7 {
+        padding-top: 98px;
+    }
+    .section6 h2, .section7 h2{
+        max-width: 809px;
+        font-size: 76px;
+        margin-bottom:64px;
+    }
+    .section6 p {
+        margin-bottom: 16px;
+    }
+    .section6 img {
+        margin-top: 40px;
+    }
+    .section7 p {
+        margin-bottom: 24px;
+    }
+    .section8 {
+        margin-top: 100px;
+        margin-bottom: 97px;
+    }
+    .section8 .second-inner {
+        margin-top: 64px;
+        margin-bottom: 64px;
+    }
+    .section8 h3{
+        font-size: 39px;
+    }
+    .section8 .second-inner p{
+            max-width: 195px;
+    }
+    .section8 .third-inner{
+        gap:10px
+    }
+    .section9 {
+    padding-top: 98px;
+    padding-bottom: 80px;
+}
+    .third-inner a {
+        position: relative;
+        top: 39px;
+        display: block;
+        min-width: 140px;
+    }
+    .section9 h2.fisrt {
+    max-width: 500px;
+    margin-bottom: 53px;
+}
+.section9 .fisrt-content ul{
+    margin-top: 32px;
+    gap: 18px;
+
+    }
+    .section9 h6 {
+    margin-top: 82px;
+    font-size: 10.97px;
+}
+.section9 h2.second {
+    max-width: 700px;
+    margin-bottom: 64px;
+}
+.section9 .fisrt-content .content > img{
+        max-width: 536px;
+}
+.section9 .wrapper-blog {
+    margin-top: 164px;
+}
+.wrapper-blog .time {
+    font-size: 1rem;
+}
+.wrapper-blog .shortDes {
+    margin-bottom: 1rem;
+    font-size: 24px;
+}
+.site-footer{
+    padding-top: 0;
+    padding-bottom: 37px;
+
+}
+.site-footer .container-full > .container{
+        max-width: 100%;
+}
+.inner-footer h6{
+    font-size: 9.75px;
+}
+.inner-footer li {
+    margin-bottom: 4.88px;
+}
+.pre-footer {
+    padding-bottom: 116px;
+    gap: 1rem;
+}
+.inner-footer li a{
+    font-size: 14px;
+}
+.copy-right, .copy-right a {
+    font-size: 9.75px;
+    color: #DBDCDE;
+}
+.copy-right .content-left, .copy-right .content-left ul {
+    gap: 27px;
+}
+.content-right,.content-right ul{
+    gap: .55rem;
+}
+.inner-footer li a img {
+    width: 12px;
+    height: 12px;
+}
 }
