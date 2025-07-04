@@ -442,30 +442,33 @@
    <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
 
  <script>
-  var carouselElem = document.querySelector('.carousel');
-  imagesLoaded(carouselElem, function () {
-    new Flickity(carouselElem, {
-      cellAlign: 'left',
-      contain: true,
-      prevNextButtons: false,
-      pageDots: false,
-      groupCells: false,
-      draggable: true
+  document.addEventListener("DOMContentLoaded", function () {
+    var carouselElem = document.querySelector('.carousel');
+    imagesLoaded(carouselElem, function () {
+      new Flickity(carouselElem, {
+        cellAlign: 'left',
+        contain: true,
+        prevNextButtons: false,
+        pageDots: false,
+        groupCells: false,
+        draggable: true
+      });
     });
-  });
 
-  var mobileCarouselElem = document.querySelector('.mobile-image-carousel');
-  imagesLoaded(mobileCarouselElem, function () {
-    new Flickity(mobileCarouselElem, {
-      cellAlign: 'left',
-      contain: true,
-      prevNextButtons: false,
-      pageDots: false,
-      draggable: true,
-      wrapAround: false
+    var mobileCarouselElem = document.querySelector('.mobile-image-carousel');
+    imagesLoaded(mobileCarouselElem, function () {
+      new Flickity(mobileCarouselElem, {
+        cellAlign: 'left',
+        contain: true,
+        prevNextButtons: false,
+        pageDots: false,
+        draggable: true,
+        wrapAround: false
+      });
     });
   });
 </script>
+
 
 
 </body>
