@@ -1,31 +1,38 @@
 <!DOCTYPE html>
 <html lang="vi">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Trang bảo mật</title>
-    <style>
-      body {
-        font-family: sans-serif;
-        text-align: center;
-        padding: 100px;
-      }
-    </style>
-  </head>
-  <body>
-    <h2>Vui lòng nhập mật khẩu để truy cập:</h2>
-    <input type="password" id="passwordInput" placeholder="Mật khẩu" />
-    <button onclick="checkPassword()">Vào trang</button>
+<head>
+  <meta charset="UTF-8" />
+  <title>Bảo vệ trang</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      text-align: center;
+      padding: 100px;
+    }
+    input {
+      padding: 10px;
+      font-size: 16px;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+  <h2>🔐 Vui lòng nhập mật khẩu để truy cập</h2>
+  <input type="password" id="passwordInput" placeholder="Nhập mật khẩu" />
+  <button onclick="checkPassword()">Truy cập</button>
 
-    <script>
-      function checkPassword() {
-        const password = document.getElementById('passwordInput').value;
-        // Đổi '123456' thành mật khẩu bạn muốn
-        if (password === '123456') {
-          window.location.href = 'home.html'; // File chính của bạn (đổi tên nếu cần)
-        } else {
-          alert('Sai mật khẩu!');
-        }
+  <script>
+    function checkPassword() {
+      const password = document.getElementById('passwordInput').value;
+      if (password === '123456') {
+        window.location.href = 'home.html'; // Tên trang thật
+      } else {
+        alert('❌ Mật khẩu sai rồi!');
       }
-    </script>
-  </body>
+    }
+  </script>
+</body>
 </html>
