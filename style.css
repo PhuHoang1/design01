@@ -985,3 +985,13 @@ header .wrapper-menu{
     height: 100%;
     object-fit: cover;
 }
+@media(min-width:768px){
+  .hidden-mobile-flex{
+    display:flex
+  }
+}
+@media(max-width:767px){
+  .hidden-mobile-flex{
+    display:none
+  }
+}
